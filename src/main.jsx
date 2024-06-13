@@ -7,3 +7,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>
 )
+
+document.getElementById('fix').addEventListener('click', () => {
+  document.getElementById('root').querySelector('button').addEventListener('pointerdown', () => {});
+})

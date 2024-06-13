@@ -6,8 +6,11 @@
 2. Open in iOS browser
 3. Click on the button
 4. Notice that event handler is not called
-5. Remove `display: contents` and reload
+5. Click on `Fix by adding fake listener`
 6. Notice that event handler is now called.
+7. Reload, remove `display: contents`, reload again
+8. Click on the button
+9. Notice that event handler is now called.
 
 ## Probable cause
 
